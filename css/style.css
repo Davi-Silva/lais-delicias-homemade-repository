@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/*TITLE HEADER*/
+
+.title-menu {
+    height: 800px;
+    background: url("../img/logo.png") no-repeat fixed center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.title-menu .nav-bar-cart {
+    margin: 20px 0 0 0;
+    position: fixed;
+    display: block;
+}
+
+.title-menu .nav-bar-cart a {
+    transition: all .2s ease-in-out;
+}
+
+.title-menu .nav-bar-cart a:hover {
+    transform: translate(0px, -2px) scale(1.06, 1.06);
+}
+
+.title-menu .nav-bar-cart a,
+.title-menu .nav-bar-cart a svg {
+    font-size: 25px;
+    color: #ff7aac!important;
+}
+
+.title-menu .nav-bar-cart a {
+    font-family: "Dancing Script", serif;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+
+.title-menu .title-menu-left {
+    transform: rotate(12deg);
+    margin-left: 95px;
+}
+
+
+.title-menu .title-menu-right {
+    transform: rotate(-12deg);
+}
+
+.title-menu ul {
+    margin: 650px 0 0 0;
+    position: fixed;
+    z-index: 0;
+}
+
+.title-menu ul li {
+    padding: 0 10px 0 10px;
+    transition: all .2s;
+}
+
+.title-menu ul li:hover {
+    text-shadow: 0 2px 1px #888888
+}
+
+.title-menu ul li a {
+    font-family: "Dancing Script", serif;
+    font-size: 40px;
+    color: #ff7aac;
+    text-decoration: none;
+}
+
+/*GALERIA SECTION*/
+
+.galeria-section {
+    position: relative;
+    z-index: 2;
+    background-color: #76cdd0;
+    height: 800px;
+}
+
+
+.galeria-section header h1 {
+    margin-top: 20px;
+    font-family: "Dancing Script", serif;
+    color: #ff7aac;
+    font-size: 60px;
+    text-shadow: 0 2px 1px #888888;
+}
+
+/*ENCOMENDAS SECTION*/
+
+.encomenda-section {
+    /*background-color: #ff7aac;*/
+    background-color: #fff;
+    position: relative;
+    z-index: 4;
+    height: 800px;
+}
+
+.encomenda-section h1 {
+    margin-top: 20px;
+    font-family: "Dancing Script", serif;
+    color: #302e2b;
+    font-size: 60px;
+    text-shadow: 0 2px 1px #888888;
+}
+
+/*CONTATO SECTION*/
+
+.contato-section {
+    background-color: #ff7aac;
+    height: 800px;
+}
+
+.contato-section h1 {
+    margin-top: 20px;
+    font-family: "Dancing Script", serif;
+    color: #76cdd0;
+    font-size: 60px;
+    text-shadow: 0 2px 1px #888888;
+}
+
+/*TOTOPBUTTON*/
+
+.toTopButton {
+    margin-top: -53px;
+    font-size: 35px;
+    color: #fff;
+}
+
+.toTopButton:hover {
+    color: #fff;
+}
+
+/*FOOTER*/
+
+.footer-section {
+    background-color: #302e2b;
+}
+
+.footer-section .social-media-list li{
+    list-style: none;
+}
+
+.footer-section .social-media-list li a{
+    color: #fff;
+    transition: .4s all;
+}
+
+.footer-section .social-media-list li a:hover {
+    text-decoration: none;
+}
+
+.footer-section p {
+    color: #fff;
+}
+
+.footer-section p a {
+    color: #fff;
+    text-decoration: none;
+    transition: .4s all;
+}
+
+.footer-section p a:hover {
+    color: #76cdd0;
+    text-decoration: none;
+}
+
+
